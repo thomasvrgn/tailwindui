@@ -1413,6 +1413,14 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@mariusmarais/tailwind-cascade@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@mariusmarais/tailwind-cascade/-/tailwind-cascade-0.0.4.tgz#0133262f0f6b81bfa0b6b44c83d04bf13cdf8c3c"
+  integrity sha512-NZTHjeiQcYgL8aSH6esg1ImbuIE0CjBSd7DlMJZGiHH8fEiZNrc+imrRJ5plbLrkrZOHuu82i8uuWhboqGeECg==
+  dependencies:
+    classnames "^2.2.6"
+    escape-regex-string "^1.0.6"
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -3245,6 +3253,11 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.6:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
+
 clean-css@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.3.tgz#507b5de7d97b48ee53d84adb0160ff6216380f78"
@@ -4443,6 +4456,11 @@ escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+
+escape-regex-string@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/escape-regex-string/-/escape-regex-string-1.0.6.tgz#f536d8997ab19ec395385dcf2ea28b4e080899eb"
+  integrity sha512-AcaPwAOKpF52ETT4uu4vmpqQphuQGjIEhdDwG/gAJYah8ixJlrSBFjhtLMT7frc9y3RWgOnLov9E0MsRBdeRbw==
 
 escape-string-regexp@2.0.0, escape-string-regexp@^2.0.0:
   version "2.0.0"
