@@ -9,3 +9,14 @@ export const Basic = ({ children, className, apply }) => {
     </div>
   )
 }
+
+export const Icon = ({ children, className }) => {
+  return (
+    <Basic 
+      className={className || ''} 
+      apply={{className: 'px-2'}}
+    >
+      {children}
+    </Basic>
+  )
+}
